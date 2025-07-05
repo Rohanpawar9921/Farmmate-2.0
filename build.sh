@@ -3,6 +3,7 @@
 set -o errexit
 
 # Install dependencies
+pip install django-image-cropping easy-thumbnails
 pip install -r requirements.txt
 
 # Navigate to the Django project directory
