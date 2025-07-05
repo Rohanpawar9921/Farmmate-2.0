@@ -19,6 +19,8 @@ ALLOWED_HOSTS = [
     '127.0.0.1', 
     '.pythonanywhere.com', 
     '.ngrok-free.app',
+    'farm-mate.onrender.com',
+    '.onrender.com',
 ]
 
 # Application definition
