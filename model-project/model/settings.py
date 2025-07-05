@@ -23,6 +23,12 @@ ALLOWED_HOSTS = [
     '.onrender.com',
 ]
 
+# CSRF trusted origins for production
+CSRF_TRUSTED_ORIGINS = [
+    'https://farm-mate.onrender.com',
+    'https://*.onrender.com',
+]
+
 # Application definition
 
 INSTALLED_APPS = [
